@@ -1,0 +1,28 @@
+# Created with EOSAIOS release tooling
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: EOSAIOS.EOSApp
+PackageVersion: 1.0.0-beta.38
+InstallerLocale: en-US
+InstallerType: inno
+Scope: machine
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+Dependencies:
+  PackageDependencies:
+  - PackageIdentifier: Microsoft.Edge.WebView2Runtime
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/eosaios/eos-app/releases/download/v1.0.0-beta.38/eos-app-setup-v1.0.0-beta.38.exe
+  InstallerSha256: 0131F310F243EE09924D0420FB6ED20DB517A38BE2F6584221A37BFC2AFEF92C
+  ProductCode: '{EOS-APP-2026-UNIQUE-ID}'
+  AppsAndFeaturesEntries:
+  - DisplayName: EOS App
+    DisplayVersion: v1.0.0-beta.38
+    ProductCode: '{EOS-APP-2026-UNIQUE-ID}'
+  ReleaseDate: 2026-09-24
+ManifestType: installer
+ManifestVersion: 1.10.0
