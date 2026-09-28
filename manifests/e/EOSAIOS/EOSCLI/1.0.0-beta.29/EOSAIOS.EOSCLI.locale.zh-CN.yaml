@@ -1,7 +1,7 @@
 # Created with EOSAIOS release tooling
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.10.0.schema.json
 
-PackageIdentifier: EOSAIOS.EOS
+PackageIdentifier: EOSAIOS.EOSCLI
 PackageVersion: 1.0.0-beta.29
 PackageLocale: zh-CN
 Publisher: EOSAIOS
